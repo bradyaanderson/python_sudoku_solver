@@ -22,9 +22,9 @@ Sudoku class can be initalized given a list of 81 integers
 
 **Note**: 0 should be used for null entries  
 
-* \<Sudoku\>.solve() will return a list with solved solutoin
-* \<Sudoku\>.print_grid(\<grid\>) will print out a readable version of list
-* When combined (\<Sudoku\>.print_grid(\<Sudoku\>.solve())), a readable version of solution will be printed
+* `<Sudoku>.solve()` will return a list with solved solutoin
+* `<Sudoku>.print_grid(<grid>)` will print out a readable version of list
+* When combined, `<Sudoku>.print_grid(<Sudoku>.solve())`, a readable version of solution will be printed
 
 ## TO-DO  
 * Error-checking  
