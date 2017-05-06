@@ -1,1 +1,32 @@
-A prototype for a sudoku solver in python.  Able to solve some puzzles, but not all.  Still a lot of work to go/
+# Python Sudoku Puzzle Solver
+Uses backtracking to solve sudoku puzzles    
+
+## Usage
+Sudoku class can be initalized given a list of 81 integers    
+
+How index relates to board postion 
+
+00 01 02  |  03 04 05  |  06 07 08  
+09 10 11  |  12 13 14  |  15 16 17  
+18 19 20  |  21 22 23  |  24 25 26  
+__________________________________  
+
+27 28 29  |  30 31 32  |  33 34 35  
+36 37 38  |  39 40 41  |  42 43 44  
+45 46 47  |  48 49 50  |  51 52 53  
+__________________________________  
+
+54 55 56  |  57 58 59  |  60 61 62  
+63 64 65  |  66 67 68  |  69 70 71  
+71 72 73  |  74 75 76  |  78 79 80    
+
+ 
+**Note**: 0 should be used for null entries  
+
+* <Sudoku>.solve() will return a list with solved solutoin
+* <Sudoku>.print_grid(<grid>) will print out a readable version of list
+* When combined (<Sudoku>.print_grid(<Sudoku>.solve())), a readable version of solution will be printed
+
+## TO-DO  
+* Error-checking  
+* GUI or integration for web
